@@ -21,7 +21,7 @@ spec:
         app: python-helloworld
     spec:
       containers:
-      - image: mwinel/python-helloworld:latest 
+      - image: mwinel/python-helloworld 
         imagePullPolicy: IfNotPresent
         name: python-helloworld
         resources:
